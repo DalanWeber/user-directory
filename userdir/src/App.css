@@ -1,0 +1,102 @@
+.App{
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.header{
+  background-color: steelblue;
+  display: flex;
+  position: relative;
+  box-sizing: content-box;
+  align-items: center;
+  justify-self: center;
+  height: 100px;
+  padding-left: 15px;
+}
+
+.infoback{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 100vh;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+
+.container{
+  background-color: blanchedalmond;
+  justify-content: space-between;
+  width: 70vw;
+  display: flex;
+  padding: 20px 20px 20px 60px;
+}
+
+.outof25{
+  position: relative;
+  width: fit-content;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.name{
+  border-bottom: solid steelblue 2px;
+  width: fit-content;
+  margin: 10px;
+}
+
+.from{
+  margin-left: 10px;
+}
+
+.froms{
+  display: flex;
+  margin-left: 10px;
+  font-size: larger;
+}
+
+ol{
+  padding-left: 60px;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 77vw;
+}
+
+.innerbutt{
+  display:flex;
+  justify-content: space-around;
+  width: 20vw;
+}
+
+strong{
+  padding-right: 5px;
+}
+
+
+button {
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-size: larger;
+  color:#FFFFFF;
+  background-color:#4eb5f1;
+  text-align:center;
+}
+
+input{
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: larger;
+}
